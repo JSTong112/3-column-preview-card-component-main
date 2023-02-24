@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+html{
+    background-color:hsl(0, 0%, 95%);
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(100vh - 1px);
+    width: 60%;
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main{
+    display: flex;
+    padding: 1rem;
+
+}
+
+.container{
+    padding: 2rem 3rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    max-width: 10vw;
+    min-width: 150px;
+}
+
+img{
+    width: 100%;
+    max-width: 3.3rem;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
+}
+#Sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 0.35rem 0 0 0.35rem;
+}
+
+#SUVs{
+    background-color:hsl(184, 100%, 22%) ;
+}
+
+#Luxury{
+    background-color:hsl(179, 100%, 13%);
+    border-radius:  0 0.35rem 0.35rem 0;
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 12px;
+}
+
+
+
+button:hover{
+    color:hsl(0, 0%, 95%)!important;
+    outline: 1px solid white;
+}
+
+#SUVs button{
+    color:hsl(184, 100%, 22%);
+    font-weight: 600;
+}
+
+#Sedans button{
+    color:hsl(31, 77%, 52%);
+    font-weight: 600;
+}
+
+#Luxury button{
+    color:hsl(179, 100%, 13%);
+    font-weight: 600;
+}
+
+#Sedans button:hover{
+    background-color:hsl(31, 77%, 52%)
+}
+
+#SUVs button:hover{
+    background-color:hsl(184, 100%, 22%);
+}
+
+#Luxury button:hover{
+    background-color:hsl(179, 100%, 13%);
+}
+
+button{
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.8rem 1rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    width: 80%;
+    color:hsl(0, 0%, 95%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: black;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
